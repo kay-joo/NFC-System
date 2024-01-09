@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_menu_home"
+        android:title="@string/home" />
+
+    <item android:title="MENU">
+        <menu>
+            <item
+                android:id="@+id/nav_login"
+                android:icon="@drawable/ic_menu_login"
+                android:title="@string/login"/>
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_menu_logout"
+                android:title="@string/logout"/>
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/nav_join"
+        android:icon="@drawable/ic_menu_join"
+        android:title="Join" />
+
+    <item
+        android:id="@+id/nav_tag"
+        android:icon="@drawable/ic_menu_tag"
+        android:title="Tag" />
+
+    <item
+        android:id="@+id/nav_showList"
+        android:icon="@drawable/list"
+        android:title="List" />
+
+    <item
+        android:id="@+id/nav_del"
+        android:icon="@drawable/ic_menu_delete"
+        android:title="Delete Account"/>
+
+    <item
+        android:id="@+id/nav_modify"
+        android:icon="@drawable/modify"
+        android:title="Modify"/>
+
+
+</menu>

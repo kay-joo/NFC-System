@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="348dp"
+        android:layout_height="161dp"
+        android:layout_marginTop="44dp"
+        android:gravity="center"
+        android:text="정말로 탈퇴하시겠습니까?"
+        android:fontFamily="@font/tenada"
+        android:textSize="45dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="346dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="28dp"
+        android:text="계정을 삭제하시려는 이유를 말씀해주세요."
+        android:fontFamily="@font/tenada"
+        android:textSize="18dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+    <CheckBox
+        android:id="@+id/error"
+        android:layout_width="414dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="80dp"
+        android:text="에러가 많습니다."
+        android:fontFamily="@font/tenada"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+    <CheckBox
+        android:id="@+id/use"
+        android:layout_width="414dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="24dp"
+        android:text="어플이 유용하지 않습니다."
+        android:fontFamily="@font/tenada"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+    <CheckBox
+        android:id="@+id/contents"
+        android:layout_width="414dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="192dp"
+        android:text="콘텐츠 불만입니다."
+        android:fontFamily="@font/tenada"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+    <CheckBox
+        android:id="@+id/frequency"
+        android:layout_width="414dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="136dp"
+        android:text="사용빈도가 낮습니다."
+        android:fontFamily="@font/tenada"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+    <EditText
+        android:id="@+id/customDi_pwd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:hint="Password 입력"
+        android:fontFamily="@font/tenada"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/contents" />
+
+    <Button
+        android:id="@+id/deleteAccountBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorPrimary"
+        android:text="탈퇴하기"
+        android:fontFamily="@font/tenada"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.92" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
